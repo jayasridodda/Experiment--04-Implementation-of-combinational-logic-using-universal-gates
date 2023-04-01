@@ -62,6 +62,14 @@ endmodule
 
 ## RTL realization
 
+1 Program:
+![ss program 1](https://user-images.githubusercontent.com/123259278/229273867-a6a7fe56-e46f-4bf2-8c3b-708fa530cafd.png)
+
+2 Program:
+![ss  program 2](https://user-images.githubusercontent.com/123259278/229273887-2c6ca85d-7b4c-4d2f-a987-f2721ef7e3d2.png)
+
+
+
 ## Output:
 ## RTL
 ## Timing Diagram
