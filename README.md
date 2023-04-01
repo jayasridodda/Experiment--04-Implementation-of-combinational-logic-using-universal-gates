@@ -62,15 +62,22 @@ endmodule
 
 ## RTL realization
 
-1 Program:
+## Output:
+
+USING NAND GATE
+
+RTL:
 ![ss program 1](https://user-images.githubusercontent.com/123259278/229273867-a6a7fe56-e46f-4bf2-8c3b-708fa530cafd.png)
+Timing Diagram:
+![TDP 1](https://user-images.githubusercontent.com/123259278/229274238-24e7a41d-3320-429c-b643-23221401db2b.png)
+Truth Table:
+![OUT PRO 1](https://user-images.githubusercontent.com/123259278/229274262-ab059a08-5054-4d1e-b49f-170b4253feea.png)
 
 2 Program:
 ![ss  program 2](https://user-images.githubusercontent.com/123259278/229273887-2c6ca85d-7b4c-4d2f-a987-f2721ef7e3d2.png)
 
 
 
-## Output:
 ## RTL
 ## Timing Diagram
 ## Result:
