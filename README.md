@@ -36,7 +36,7 @@ RegisterNumber: 212222240028
 
 ## Program 1:
 ```
-module saisai(a,b,c,d,f);
+module combo1(a,b,c,d,f);
 input a,b,c,d;
 output f;
 wire f1,f2,f3;
@@ -48,7 +48,7 @@ endmodule
 ```
 ## Program 2:
 ```
-module sai2(a,b,c,d,f);
+module combo2(a,b,c,d,f);
 input a,b,c,d;
 output f;
 wire f1,f2,f3,f4;
