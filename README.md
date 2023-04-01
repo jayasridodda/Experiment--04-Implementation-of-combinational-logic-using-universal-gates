@@ -26,14 +26,40 @@ NOR gate is actually a combination of two logic gates: OR gate followed by NOT g
 
 F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 
-## Logic Diagram
 ## Procedure
 ## Program:
-/*
+```
 Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: JAYASRI DODDA 
+RegisterNumber: 212222240028
+```
+
+## Program 1:
+```
+module saisai(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire f1,f2,f3;
+assign f1 = (~c&~b&~a);
+assign f2 = (~d&~c&~a);
+assign f3 = (c&~(~b)&~a);
+assign f= f1&~f2&~f3;
+endmodule
+```
+## Program 2:
+```
+module sai2(a,b,c,d,f);
+input a,b,c,d;
+output f;
+wire f1,f2,f3,f4;
+assign f1 = c&(~b)&a;
+assign f2 = d&(~c)&a;
+assign f3 = c&(~b)&a;
+assign f4 = ~(f1|f2|f3);
+not(f,f4);
+endmodule
+```
+
 ## RTL realization
 
 ## Output:
