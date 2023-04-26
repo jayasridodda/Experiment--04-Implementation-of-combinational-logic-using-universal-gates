@@ -1,4 +1,4 @@
-# Experiment--04-Implementation-of-combinational-logic-using-universal-gates
+# Experiment--02-Implementation-of-combinational-logic-using-universal-gates
 Implementation of combinational logic using universal-gates
  
 ## AIM:
